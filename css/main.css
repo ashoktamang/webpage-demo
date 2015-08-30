@@ -5,7 +5,7 @@ body{
 }
 
 nav {
-    background-color: #333;
+    background-color: black;
     margin: 0;
     overflow: hidden;
 }
@@ -22,10 +22,18 @@ nav ul li {
 
 /* Create a style for the first level items */
 nav > ul > li > a {
-    color: #aaa;
-    background-color:#FF0;
+    color: red;
+    background-color:white;
     display: block;
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
+}
+
+#navbar {
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 20%;
+    margin-bottom: 80%;
 }
