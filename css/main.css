@@ -121,10 +121,18 @@ div#slider figure {
 #body1 {
 	text-align: left;
 }
+
 #timestamp {
 	font-size: 10px;
 	text-align: right;
 	font-style: block italic;
 }
-}
+
+/* Footer sytle */
+#footer {
+	border-top: ridge;
+	border-top-width: 10px;
+	border-color: #E6E6E6;
+	font-size: 10px;
+	font-style: oblique;
 }
