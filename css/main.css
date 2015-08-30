@@ -136,3 +136,25 @@ div#slider figure {
 	font-size: 10px;
 	font-style: oblique;
 }
+
+/* links style */
+#links {
+	margin: 20px;
+	padding: 20px;
+	padding-right: 40px;
+}
+
+/* Tables for news page */
+table, th, td {
+	margin: 20px;
+	padding: 20px;
+    border: 1px ridge #E6E6E6;
+}
+
+#gif {
+	height: 60px;
+	width: 80px;
+	position:relative;
+	top: -60px;
+	float: right;
+}
