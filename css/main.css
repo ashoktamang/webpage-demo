@@ -37,3 +37,8 @@ nav > ul > li > a {
     margin-top: 20%;
     margin-bottom: 80%;
 }
+
+table, th, td {
+   border: 1px solid green;
+   color: Green;
+}
