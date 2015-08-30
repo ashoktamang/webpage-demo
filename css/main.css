@@ -101,6 +101,10 @@ div#slider figure {
 	margin-top: 25px;
 	font-style: block italic;
 	font-size: 30px;
+	border-style: ridge;
+	border-width: 10px;
+	border-bottom-color: black;
+	border-color: #E6E6E6;
 }
 #blog {
 	margin: 25px;
