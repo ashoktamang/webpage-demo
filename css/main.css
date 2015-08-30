@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15px;
+    background-color: #CCFF66;
 }
 
 nav {
@@ -22,18 +23,69 @@ nav ul li {
 
 /* Create a style for the first level items */
 nav > ul > li > a {
-    color: red;
-    background-color:white;
-    display: block;
+    color: white;
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
 }
 
-#navbar {
+.center {
     width: 700px ;
     margin-left: auto ;
     margin-right: auto ;
-    margin-top: 20%;
-    margin-bottom: 80%;
+}
+
+div#center {
+	text-align: center;
+}
+
+/* Banner image slider */
+
+div#slider {
+	width: 80%;
+	max-width: 1000px;
+}
+
+div#slider figure {
+	position: relative;
+	width: 400%;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	text-align: left;
+}
+
+div#slider figure img {
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+div#slider {
+	width: auto;
+	max-width: 1000px;
+	overflow: hidden; 
+}
+
+@keyframes slidy { 
+	0%  { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; } 
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; } 
+}
+
+div#slider figure {
+	-webkit-position: relative;
+	-webkit-width: 500%;
+	-webkit-margin: 0;
+	-webkit-padding: 0;
+	-webkit-font-size: 0;
+	-webkit-left: 0;
+	-webkit-text-align: left;
+	-webkit-animation: 10s slidy infinite;  
 }
