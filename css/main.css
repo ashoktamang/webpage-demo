@@ -1,19 +1,21 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     font-size: 15px;
-    background-color: #CCFF66;
+    background-color: #E6E6E6;
 }
 
 nav {
-    background-color: black;
-    margin: 0;
+    background-color: #6A6A66;
+    margin-top: 10px;
+    margin-left: 10px;
     overflow: hidden;
+    margin-left: 0;
 }
 
 nav ul{
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 nav ul li {
     /* This allow us to arrange list items in a row, without using float */
@@ -25,14 +27,18 @@ nav ul li {
 nav > ul > li > a {
     color: white;
     line-height: 2em;
-    padding: 0.5em 0.5em;
+    padding: 2em 2em;
     text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .center {
-    width: 700px ;
-    margin-left: auto ;
-    margin-right: auto ;
+	position: relative;
+	top: 40%;
+	bottom: 80%;
+    width: 1000px ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div#center {
@@ -42,7 +48,7 @@ div#center {
 /* Banner image slider */
 
 div#slider {
-	width: 80%;
+	width: 60%;
 	max-width: 1000px;
 }
 
@@ -50,14 +56,14 @@ div#slider figure {
 	position: relative;
 	width: 400%;
 	margin: 0;
-	padding: 0;
+	padding: 10;
 	font-size: 0;
 	text-align: left;
 }
 
 div#slider figure img {
 	width: 25%;
-	height: auto;
+	height: 60%;
 	float: left;
 }
 
@@ -82,10 +88,39 @@ div#slider {
 div#slider figure {
 	-webkit-position: relative;
 	-webkit-width: 500%;
-	-webkit-margin: 0;
-	-webkit-padding: 0;
+	-webkit-margin: 10 auto;
+	-webkit-padding: 10;
 	-webkit-font-size: 0;
 	-webkit-left: 0;
 	-webkit-text-align: left;
 	-webkit-animation: 10s slidy infinite;  
+}
+
+/*Homepage blog content*/
+#tableofcontents {
+	margin-top: 25px;
+	font-style: block italic;
+	font-size: 30px;
+}
+#blog {
+	margin: 25px;
+	font-size: 12px;
+	font-style: oblique;
+}
+
+#heading {
+	margin-top: 10px;
+	font-size: 18px;
+	font-style: bold;
+}
+
+#body1 {
+	text-align: left;
+}
+#timestamp {
+	font-size: 10px;
+	text-align: right;
+	font-style: block italic;
+}
+}
 }
